@@ -19,7 +19,14 @@ class School
    end
  end
  
- def sortroster.sort
+ def sort
+  sorted_roster = {}
+  roster.each do |a, b|
+  sorted_roster[a] = b.sort
+  end
+  
+  sorted_roster
+  
    
    
 end
