@@ -26,11 +26,6 @@ class School
   end
   sorted_roster
 end
-  
-  
-  
-   
-   
 end
 
 
