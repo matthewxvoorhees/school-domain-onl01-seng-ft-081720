@@ -24,9 +24,10 @@ class School
   roster.each do |a, b|
   sorted_roster[a] = b.sort
   end
+  sorted_roster
 end
   
-  sorted_roster
+  
   
    
    
