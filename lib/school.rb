@@ -19,8 +19,8 @@ class School
    end
  end
  
- def sort
-   roster.sort
+ def sortroster.sort
+   
    
 end
 
