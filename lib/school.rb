@@ -15,9 +15,10 @@ class School
     roster.detect do |a,b|
     if a == student_grade
       return b
-    end
-  end
-  
+      end
+   end
+ end
+   
 end
 
 
