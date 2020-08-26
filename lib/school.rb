@@ -11,7 +11,11 @@ class School
     roster[grade]<< student_name
   end
   
-  def grade 
+  def grade(student_grade)
+    roster.detect do |a,b|
+    a = student_grade
+    return b
+    end
   
 end
 
