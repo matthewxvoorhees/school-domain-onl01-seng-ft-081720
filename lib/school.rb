@@ -16,6 +16,7 @@ class School
     a = student_grade
     return b
     end
+  end
   
 end
 
