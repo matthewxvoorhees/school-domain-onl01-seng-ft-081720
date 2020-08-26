@@ -13,8 +13,8 @@ class School
   
   def grade(student_grade)
     roster.detect do |a,b|
-    a = student_grade
-    return b
+    if a == student_grade
+      return b
     end
   end
   
